@@ -4,6 +4,7 @@ import typeDefs from './schema';
 import resolvers from './resolvers';
 
 const server = new ApolloServer({
+    cors: true,
     typeDefs: typeDefs,
     resolvers: resolvers
 });
