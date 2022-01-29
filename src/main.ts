@@ -5,7 +5,8 @@ import resolvers from './resolvers';
 
 const server = new ApolloServer({
     typeDefs: typeDefs,
-    resolvers: resolvers
+    resolvers: resolvers,
+    
 });
 const PORT = process.env.PORT || 5000;
 

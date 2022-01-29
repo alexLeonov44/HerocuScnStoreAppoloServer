@@ -90,7 +90,7 @@ const products: Product[] = [
         .setDescription('<p>A good gaming console. Plays games of PS4! Enjoy if you can buy it mwahahahaha</p>')
         .setCategory(Category.tech),
 
-    new Product('Xbox Series S 512GB')
+    new Product('Xbox Series S')
         .setId('xbox-series-s')
         .setPrice(277)
         .addImages([
