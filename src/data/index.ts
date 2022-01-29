@@ -111,6 +111,7 @@ const products: Product[] = [
         .setId('apple-imac-2021')
         .setPrice(1400)
         .setBrand('Apple')
+        .setInStock(false)
         .addImages([
             'https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/imac-24-blue-selection-hero-202104?wid=904&hei=840&fmt=jpeg&qlt=80&.v=1617492405000'
         ])
