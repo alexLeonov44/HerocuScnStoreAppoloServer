@@ -54,6 +54,7 @@ const products: Product[] = [
         ])
         .setCategory(Category.clothes)
         .setBrand('Nike x Stussy')
+        .setInStock(false)
         .addAttributeSet(shoeSizes),
         
 
@@ -70,6 +71,7 @@ const products: Product[] = [
         ])
         .addAttributeSet(clothesSizes)
         .setBrand('Canada Goose')
+        .setInStock(false)
         .setDescription('<p>Awesome winter jacket</p>')
         .setCategory(Category.clothes),
 
